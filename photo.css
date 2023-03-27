@@ -1,0 +1,97 @@
+* ::after ::before{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    padding-left: 40%;
+    padding-right: 20%;
+}
+header li{
+    list-style-type: none;
+    padding-left: 10%;
+    padding-top: 15px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+header a:hover{
+    background-color: rgb(163, 163, 167);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+@media screen (max-width: 800px) {
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+}
+div{
+    margin: 2%;
+}
+
+footer{
+    margin-top: 3%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    height: 350px;
+    padding-top: 4%;
+    font-size: 110%;
+}
+footer img{
+    width: 10%;
+}
+@media (max-width: 800px) {
+    footer{
+        margin-top: 3%;
+        width: 110%;
+        background-color: black;
+        text-align: center;
+        color: rgb(250, 250, 250);
+        height: 350px;
+        padding-top: 4%;
+        font-size: 110%;
+    }
+}
+@media (max-width: 550px) {
+    footer{
+        margin-top: 3%;
+        width: 110%;
+        background-color: black;
+        text-align: center;
+        color: rgb(250, 250, 250);
+        height: 350px;
+        padding-top: 4%;
+        font-size: 110%;
+    }
+}
+@media (max-width: 420px) {
+    footer{
+        margin-top: 3%;
+        width: 170%;
+        background-color: black;
+        text-align: center;
+        color: rgb(250, 250, 250);
+        height: 350px;
+        padding-top: 4%;
+        font-size: 110%;
+    }
+}
+
+

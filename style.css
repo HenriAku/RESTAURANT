@@ -1,0 +1,304 @@
+* ::before ::after{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    padding-left: 40%;
+    padding-right: 20%;
+}
+header li{
+    list-style-type: none;
+    padding-left: 10%;
+    padding-top: 15px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+header a:hover{
+    background-color: rgb(163, 163, 167);
+}
+section .restaurant{
+    display: flex;
+}
+section .facade img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+section .logo img {
+    margin-top: -100%;
+}
+@media (max-width: 800px) {
+    section .facade img {
+    width: 110%;
+    height: 600px;
+    object-fit: cover;
+}
+    section .logo img {
+    margin-top: -300%;
+}
+}
+@media (max-width: 500px) {
+    section .facade img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+    section .logo img {
+    margin-top: -300%;
+}
+}
+@media (max-width: 420px) {
+    section .facade img {
+    width: 170%;
+    height: 600px;
+    object-fit: cover;
+}
+    section .logo img {
+    margin-top: -300%;
+}
+}
+
+
+section .contenair1{
+    display: flex;
+    width: 100%;
+}
+div .text{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+div .text h1 {
+    color: rgb(206, 5, 5);
+    font-size: 250%;
+}
+div .text h2{
+    font-size: 200%;
+}
+div .text p{
+    width: 80%; 
+}
+div .interieur img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 2560px) {
+    div .text{
+        width: 30%;
+        padding-right: 10%;
+        font-size: 150%;
+    }
+    div .text p{
+        width: 120%; 
+    }
+    div .interieur img {
+        width: 80%;
+        height: 100%;
+        object-fit: cover;
+        padding-left: 15%;
+    }
+}
+@media (max-width: 800px) {
+    div .text{
+        width: 100%;
+        padding-right: 10%;
+        font-size: 100%;
+    }
+    div .text p{
+        width: 120%; 
+    }
+    div .interieur img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 550px) {
+    div .text{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+    div .text p{
+        width: 100%; 
+    }
+    div .interieur img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 420px) {
+    div .text{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+    div .text p{
+        width: 100%; 
+    }
+    div .interieur img {
+        width: 220%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+div.contenair2{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+div .plat img {
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    object-fit: cover;
+}
+div .text2 h1 {
+    color: rgb(206, 5, 5);
+    font-size: 250%;
+    width: 100%;
+}
+div .text2 h2{
+    font-size: 200%;
+}
+div .text2{
+    width: 60%;
+    padding-left: 10%;
+    margin-right: 10%;
+}
+@media (max-width: 2560px) {
+    div .text2{
+        width: 40%;
+        padding-left: 25%;
+        font-size: 150%;
+    }
+    div .text2 p{
+        width: 100%; 
+    }
+    div .plat img {
+        width: 110%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 800px) {
+    div .text2{
+        width: 100%;
+        padding-left: 5%;
+        font-size: 100%;
+    }
+    div .text2 p{
+        width: 100%; 
+    }
+    div .plat img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 550px) {
+    div .text2{
+        width: 100%;
+        padding-left: 5%;
+    }
+    div .text2 p{
+        width: 130%; 
+    }
+    div .plat img {
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 420px) {
+    div .text2{
+        width: 100%;
+        padding-left: 90%;
+        margin-right: 0%;
+    }
+    div .text2 p{
+        width: 120%; 
+    }
+    div .plat img {
+        position: absolute;
+        width: 60%;
+        height: 70%;
+        object-fit: cover;
+    }
+}
+
+section .contenair3{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+.contenair3 img {
+    width: 80%;
+}
+.contenair3 h1{
+    width: 110%;
+}
+
+footer{
+    margin-top: 3%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    height: 350px;
+    padding-top: 4%;
+    font-size: 110%;
+}
+footer img{
+    width: 10%;
+}
+@media (max-width: 800px) {
+    footer{
+        margin-top: 3%;
+        width: 110%;
+        background-color: black;
+        text-align: center;
+        color: rgb(250, 250, 250);
+        height: 350px;
+        padding-top: 4%;
+        font-size: 110%;
+    }
+}
+@media (max-width: 550px) {
+    footer{
+        margin-top: 3%;
+        width: 110%;
+        background-color: black;
+        text-align: center;
+        color: rgb(250, 250, 250);
+        height: 350px;
+        padding-top: 4%;
+        font-size: 110%;
+    }
+}
+@media (max-width: 420px) {
+    footer{
+        margin-top: 3%;
+        width: 170%;
+        background-color: black;
+        text-align: center;
+        color: rgb(250, 250, 250);
+        height: 350px;
+        padding-top: 4%;
+        font-size: 110%;
+    }
+}
